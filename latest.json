@@ -1,14 +1,15 @@
 {
-  "version": "1.1.0",
-  "build": "202610141946",
-  "url": "downloads/Annotello-1.1.0.dmg",
-  "size": "4.6 MB",
-  "sha256": "2ae1960dc419b222fa93de2c284e5f88194b8b21c2ad8f5c020af0e36715a886",
+  "version": "1.2.0",
+  "build": "202610151955",
+  "url": "downloads/Annotello-1.2.0.dmg",
+  "size": "5.0 MB",
+  "sha256": "d27ce84acf29619e89c9a9bdd2f3248c1537e5d26686acb386ab8918b80799d0",
   "minimumSystemVersion": "15.0",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "notes": [
-    "First public release of Annotello.",
-    "Capture presets, screen-recording extras (clicks, keys, webcam, drawing) and automatic captions.",
-    "Step guides, Measure tool, ⌘K command palette and version history."
+    "New: Steps — click through any task and get a step-by-step guide automatically (⌃⇧G).",
+    "Captions name what you clicked; emails, numbers and API keys are hidden automatically.",
+    "Edit any step in the full editor, drag markers, reorder, and export a guide image, PDF, web page or Library collection.",
+    "The menu bar panel opens reliably, dialogs can no longer hide behind other windows, and memory use after Steps is fixed."
   ]
 }
