@@ -6,14 +6,14 @@
     <description>Annotello updates</description>
     <language>en</language>
     <item>
-      <title>Annotello 1.2.2</title>
-      <pubDate>Fri, 16 Oct 2026 14:43:16 GMT</pubDate>
-      <sparkle:version>202610161039</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <title>Annotello 1.2.3</title>
+      <pubDate>Fri, 16 Oct 2026 14:52:00 GMT</pubDate>
+      <sparkle:version>202610161051</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:fullReleaseNotesLink>https://annotello.com/#changelog</sparkle:fullReleaseNotesLink>
-      <description><![CDATA[<h3>What's new in 1.2.2</h3><ul><li>Signed and notarized by Apple: Annotello now opens without any security warnings.</li><li>Automatic updates: Annotello checks for new versions daily and installs them in one click.</li><li>Check for Updates… is available from the menu bar icon, the capture panel&#x27;s ⋯ menu, the app menu and Settings.</li><li>Settings › General has a new Updates row to turn automatic checks on or off.</li></ul>]]></description>
-      <enclosure url="https://annotello.com/downloads/Annotello-1.2.2.dmg" length="6083895" type="application/octet-stream" sparkle:edSignature="iDRu6EQklCL3P2oFvPmv6sHyk1A3Zdr7POS6bT0+0EFTy6HA3A+zAdq+2NKIisNOWkiAEoaEWzGxkLPEsNaLBQ=="/>
+      <description><![CDATA[<h3>What's new in 1.2.3</h3><ul><li>The About window now shows © Annotello.</li><li>Includes everything from 1.2.2: notarized by Apple and automatic updates.</li></ul>]]></description>
+      <enclosure url="https://annotello.com/downloads/Annotello-1.2.3.dmg" length="6083823" type="application/octet-stream" sparkle:edSignature="kGuMTURcdYGpbZBeuyIpUWPFpIDimrJdKlwD9CW6USFoDDm3xNH3WwVu2Ce0imsY6o8AQyuTLBTzcg6pGtrmDQ=="/>
     </item>
   </channel>
 </rss>
