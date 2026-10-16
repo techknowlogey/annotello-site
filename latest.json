@@ -1,15 +1,15 @@
 {
-  "version": "1.2.0",
-  "build": "202610151955",
-  "url": "downloads/Annotello-1.2.0.dmg",
+  "version": "1.2.1",
+  "build": "202610152004",
+  "url": "downloads/Annotello-1.2.1.dmg",
   "size": "5.0 MB",
-  "sha256": "d27ce84acf29619e89c9a9bdd2f3248c1537e5d26686acb386ab8918b80799d0",
+  "sha256": "9e88cd88fc26d3008f6864fa36f18850cf1a100138e687bbf533c3fea533c279",
   "minimumSystemVersion": "15.0",
   "date": "2026-10-15",
   "notes": [
-    "New: Steps — click through any task and get a step-by-step guide automatically (⌃⇧G).",
-    "Captions name what you clicked; emails, numbers and API keys are hidden automatically.",
-    "Edit any step in the full editor, drag markers, reorder, and export a guide image, PDF, web page or Library collection.",
-    "The menu bar panel opens reliably, dialogs can no longer hide behind other windows, and memory use after Steps is fixed."
+    "Captions now hear every audio track, so narration recorded with both Microphone and System Audio is transcribed.",
+    "Clearer caption messages when a recording has no audio or no speech, and a hint that Microphone is needed for captions.",
+    "Steps: edit any step in the full editor, drag markers, and larger, clearer step controls.",
+    "Fixes: menu bar panel opens reliably, dialogs can no longer hide behind other windows, and lower memory use after Steps."
   ]
 }
