@@ -29,7 +29,7 @@
       <a href="#install">Install</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn btn-primary btn-small dl-link" href="downloads/Annotello-1.2.1.dmg">Download</a>
+    <a class="btn btn-primary btn-small dl-link" href="downloads/Annotello-1.2.2.dmg">Download</a>
   </div>
 </header>
 
@@ -42,13 +42,13 @@
       <h1>Capture it. <span class="gradient-text">Mark it up.</span><br>Share it in seconds.</h1>
       <p class="lead">Annotello is a fast, private screen capture and annotation app for Mac — arrows, callouts, automatic redaction, scrolling capture, screen recording, and step-by-step guides that write themselves.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary dl-link" href="downloads/Annotello-1.2.1.dmg">
+        <a class="btn btn-primary dl-link" href="downloads/Annotello-1.2.2.dmg">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.2 1-4 2.5-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.5-4zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.5 2.8-1.3z"/></svg>
           Download for Mac
         </a>
         <a class="btn" href="#features">See what it does</a>
       </div>
-      <div class="meta">Free · Version <span class="dl-version">1.2.1</span> · <span class="dl-size">5.0 MB</span> · macOS 15 or later · Apple Silicon &amp; Intel</div>
+      <div class="meta">Free · Version <span class="dl-version">1.2.2</span> · <span class="dl-size">6.1 MB</span> · macOS 15 or later · Apple Silicon &amp; Intel</div>
       <img class="hero-shot" src="assets/hero.jpg" alt="A settings page annotated in Annotello with numbered steps, a highlighted title, blurred email and API key, an arrow and a callout, on a purple gradient backdrop" width="1800" height="1218">
     </div>
   </section>
@@ -254,13 +254,12 @@
         <p>Requires macOS 15 Sequoia or later. Works on Apple Silicon and Intel Macs.</p>
       </div>
       <ol class="steps">
-        <li><strong>Download and open the installer</strong><p>Open <span class="dl-file">Annotello-1.2.1.dmg</span> and drag Annotello into your Applications folder.</p></li>
-        <li><strong>Open Annotello</strong><p>macOS will say it can't verify the developer, because Annotello isn't from the App Store. Click <em>Done</em>.</p></li>
-        <li><strong>Allow it once</strong><p>Go to <em>System Settings › Privacy &amp; Security</em>, scroll down to "Annotello was blocked…" and click <em>Open Anyway</em>. You only do this the first time.</p></li>
+        <li><strong>Download and open the installer</strong><p>Open <span class="dl-file">Annotello-1.2.2.dmg</span> and drag Annotello into your Applications folder.</p></li>
+        <li><strong>Open Annotello</strong><p>Annotello is signed and notarized by Apple, so it opens like any app. If macOS asks whether to open an app downloaded from the internet, click <em>Open</em>.</p></li>
         <li><strong>Grant Screen Recording</strong><p>The welcome guide walks you through it. Then press <kbd>⌃ ⇧ C</kbd> and capture something.</p></li>
+        <li><strong>Stay up to date automatically</strong><p>Annotello checks for new versions once a day and installs them in one click. You can also choose <em>Check for Updates…</em> from the menu bar icon.</p></li>
       </ol>
       <div class="note">
-        Prefer Terminal? This does the same as step 3: <code>xattr -dr com.apple.quarantine /Applications/Annotello.app</code><br>
         SHA-256 of the download: <code class="checksum dl-sha">see latest.json</code>
       </div>
     </div>
@@ -276,11 +275,11 @@
       <div class="faq">
         <details><summary>Is Annotello free?</summary><p>Yes. There's no account, subscription or trial.</p></details>
         <details><summary>Does Annotello upload my screenshots?</summary><p>No. Captures, recordings, text recognition, redaction and captions all happen on your Mac. The only exceptions are features you turn on yourself: AI actions (sent to Anthropic using your own API key) and "Upload &amp; Copy Link" (sent to Imgur).</p></details>
-        <details><summary>Why does macOS warn me when I first open it?</summary><p>Apps that aren't distributed through the App Store or notarized by Apple show this warning the first time. Approve it once in System Settings › Privacy &amp; Security › Open Anyway, as described in the install steps.</p></details>
+        <details><summary>Is it safe to install?</summary><p>Yes. Since version 1.2.2, Annotello is signed with an Apple Developer ID and notarized by Apple, which scans it for malicious software. Updates are also cryptographically signed, so Annotello only installs updates that come from us.</p></details>
         <details><summary>Does Steps record what I type?</summary><p>No. Steps captures a screenshot when you click and notes which button, menu or field you clicked. It never records keystrokes or the contents of text fields. With Accessibility permission allowed, captions can name what you clicked; without it they simply say which app you clicked in.</p></details>
         <details><summary>Why does it need Screen Recording permission?</summary><p>macOS requires it for any app that captures the screen. Microphone, Camera, Accessibility and Speech Recognition are optional and only used for the features that need them.</p></details>
         <details><summary>Where are my captures saved?</summary><p>In <em>Pictures › Annotello</em> by default. You can change the folder — including to iCloud Drive — in Settings.</p></details>
-        <details><summary>How do I update?</summary><p>Download the new version and replace the app in Applications. Your captures, settings and permissions are kept.</p></details>
+        <details><summary>How do I update?</summary><p>From version 1.2.2 on, Annotello updates itself: it checks daily and asks before installing. Choose <em>Check for Updates…</em> from the menu bar icon to check right away, or turn automatic checks off in Settings › General. On 1.2.1 or earlier, download 1.2.2 once and replace the app in Applications. Your captures and settings are kept.</p></details>
         <details><summary>How do I uninstall it?</summary><p>Quit Annotello and drag it from Applications to the Trash. Your captures stay in Pictures › Annotello until you delete them.</p></details>
         <details><summary>Does it work on Intel Macs?</summary><p>Yes — the download runs natively on both Apple Silicon and Intel. macOS 15 Sequoia or later is required.</p></details>
       </div>
@@ -296,7 +295,7 @@
       </div>
       <div class="changelog">
         <div class="release">
-          <h4>Version <span class="dl-version">1.2.1</span></h4>
+          <h4>Version <span class="dl-version">1.2.2</span></h4>
           <div class="date dl-date">October 2026</div>
           <ul class="dl-notes">
             <li>First public release of Annotello.</li>
@@ -314,8 +313,8 @@
       <div class="cta-box">
         <h2>Start capturing better screenshots</h2>
         <p>Free for Mac. No account needed.</p>
-        <a class="btn dl-link" href="downloads/Annotello-1.2.1.dmg">Download Annotello</a>
-        <div class="meta">Version <span class="dl-version">1.2.1</span> · macOS 15+ · Apple Silicon &amp; Intel</div>
+        <a class="btn dl-link" href="downloads/Annotello-1.2.2.dmg">Download Annotello</a>
+        <div class="meta">Version <span class="dl-version">1.2.2</span> · macOS 15+ · Apple Silicon &amp; Intel</div>
       </div>
     </div>
   </section>

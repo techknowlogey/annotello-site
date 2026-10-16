@@ -1,16 +1,16 @@
 {
-  "version": "1.2.1",
-  "build": "202610152004",
-  "url": "https://annotello.com/downloads/Annotello-1.2.1.dmg",
-  "size": "5.0 MB",
-  "sha256": "9e88cd88fc26d3008f6864fa36f18850cf1a100138e687bbf533c3fea533c279",
+  "version": "1.2.2",
+  "build": "202610161039",
+  "url": "https://annotello.com/downloads/Annotello-1.2.2.dmg",
+  "size": "6.1 MB",
+  "sha256": "294be299dc75640d54923eff4b9a73e904f511687feabbfdf8f10185caa781d4",
   "minimumSystemVersion": "15.0",
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "notes": [
-    "Captions now hear every audio track, so narration recorded with both Microphone and System Audio is transcribed.",
-    "Clearer caption messages when a recording has no audio or no speech, and a hint that Microphone is needed for captions.",
-    "Steps: edit any step in the full editor, drag markers, and larger, clearer step controls.",
-    "Fixes: menu bar panel opens reliably, dialogs can no longer hide behind other windows, and lower memory use after Steps."
+    "Signed and notarized by Apple: Annotello now opens without any security warnings.",
+    "Automatic updates: Annotello checks for new versions daily and installs them in one click.",
+    "Check for Updates… is available from the menu bar icon, the capture panel's ⋯ menu, the app menu and Settings.",
+    "Settings › General has a new Updates row to turn automatic checks on or off."
   ],
   "page": "https://annotello.com/",
   "releaseNotes": "https://annotello.com/#changelog"
