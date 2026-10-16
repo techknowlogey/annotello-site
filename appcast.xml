@@ -6,14 +6,14 @@
     <description>Annotello updates</description>
     <language>en</language>
     <item>
-      <title>Annotello 1.2.3</title>
-      <pubDate>Fri, 16 Oct 2026 14:52:00 GMT</pubDate>
-      <sparkle:version>202610161051</sparkle:version>
-      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <title>Annotello 1.2.4</title>
+      <pubDate>Fri, 16 Oct 2026 15:21:06 GMT</pubDate>
+      <sparkle:version>202610161114</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:fullReleaseNotesLink>https://annotello.com/#changelog</sparkle:fullReleaseNotesLink>
-      <description><![CDATA[<h3>What's new in 1.2.3</h3><ul><li>The About window now shows © Annotello.</li><li>Includes everything from 1.2.2: notarized by Apple and automatic updates.</li></ul>]]></description>
-      <enclosure url="https://annotello.com/downloads/Annotello-1.2.3.dmg" length="6083823" type="application/octet-stream" sparkle:edSignature="kGuMTURcdYGpbZBeuyIpUWPFpIDimrJdKlwD9CW6USFoDDm3xNH3WwVu2Ce0imsY6o8AQyuTLBTzcg6pGtrmDQ=="/>
+      <description><![CDATA[<h3>What's new in 1.2.4</h3><ul><li>New About Annotello window: see your version and build, what Annotello can do, and when it last checked for updates.</li><li>Copy Info in the About window copies your version and macOS details, handy when asking for help.</li><li>Open About from the menu bar icon&#x27;s right-click menu, the capture panel&#x27;s ⋯ menu, or annotello://about.</li></ul>]]></description>
+      <enclosure url="https://annotello.com/downloads/Annotello-1.2.4.dmg" length="6130858" type="application/octet-stream" sparkle:edSignature="RYc5MIS45OLqpdkYF/SbeE7FQgMHekNTsm7RB8hfbr/75yWRnLjZZhORrgZJ3OVE6+zHAZI9TRQRHCIHAWgNDw=="/>
     </item>
   </channel>
 </rss>

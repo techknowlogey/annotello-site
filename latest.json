@@ -1,14 +1,15 @@
 {
-  "version": "1.2.3",
-  "build": "202610161051",
-  "url": "https://annotello.com/downloads/Annotello-1.2.3.dmg",
+  "version": "1.2.4",
+  "build": "202610161114",
+  "url": "https://annotello.com/downloads/Annotello-1.2.4.dmg",
   "size": "6.1 MB",
-  "sha256": "2fc34480031d9ddb934da4c10dbde7f9805409a3ba114048fad53619aded07a6",
+  "sha256": "d7e945e1b0267f3b696b18d1cd26b088a1a7111525f4ef1b91fcc1e02b255874",
   "minimumSystemVersion": "15.0",
   "date": "2026-10-16",
   "notes": [
-    "The About window now shows © Annotello.",
-    "Includes everything from 1.2.2: notarized by Apple and automatic updates."
+    "New About Annotello window: see your version and build, what Annotello can do, and when it last checked for updates.",
+    "Copy Info in the About window copies your version and macOS details, handy when asking for help.",
+    "Open About from the menu bar icon's right-click menu, the capture panel's ⋯ menu, or annotello://about."
   ],
   "page": "https://annotello.com/",
   "releaseNotes": "https://annotello.com/#changelog"
