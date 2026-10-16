@@ -14,8 +14,9 @@ Any static host works. The site is ~1 MB plus the ~5 MB DMG.
 - **GitHub Pages** (free): push this folder to a repository and enable Pages (Settings › Pages).
 - **Cloudflare Pages / Netlify** (free): drag the `website` folder into their dashboard.
 
-Custom domain (e.g. annotello.com): add it in the host's settings and create the DNS records they
-show. For GitHub Pages also add a `CNAME` file containing the domain.
+Live at **https://annotello.com** (GitHub Pages, repo `techknowlogey/annotello-site`; DNS in Cloudflare:
+CNAME `@` and `www` → `techknowlogey.github.io`, *DNS only*, plus the `_github-pages-challenge-techknowlogey`
+TXT verification record). The `CNAME` file in this folder must stay — it tells GitHub Pages the domain.
 
 ## Images
 `./scripts/render-site-images.sh` regenerates `assets/*` with Annotello's own drawing code

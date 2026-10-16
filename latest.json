@@ -1,7 +1,7 @@
 {
   "version": "1.2.1",
   "build": "202610152004",
-  "url": "downloads/Annotello-1.2.1.dmg",
+  "url": "https://annotello.com/downloads/Annotello-1.2.1.dmg",
   "size": "5.0 MB",
   "sha256": "9e88cd88fc26d3008f6864fa36f18850cf1a100138e687bbf533c3fea533c279",
   "minimumSystemVersion": "15.0",
@@ -11,5 +11,7 @@
     "Clearer caption messages when a recording has no audio or no speech, and a hint that Microphone is needed for captions.",
     "Steps: edit any step in the full editor, drag markers, and larger, clearer step controls.",
     "Fixes: menu bar panel opens reliably, dialogs can no longer hide behind other windows, and lower memory use after Steps."
-  ]
+  ],
+  "page": "https://annotello.com/",
+  "releaseNotes": "https://annotello.com/#changelog"
 }
