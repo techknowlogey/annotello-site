@@ -1,4 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
 <title>Not found — Annotello</title>
 <script>
   // Works both at a custom domain (/) and at a GitHub project page (/annotello-site/).
@@ -7,5 +8,32 @@
 </script>
 <link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="styles.css"></head>
 <body><main class="hero"><div class="wrap"><img class="hero-icon" src="assets/icon.png" alt="">
+<div id="notfound">
 <h1>Page not found</h1><p class="lead">That page doesn't exist. Head back to the home page to download Annotello.</p>
-<div class="hero-actions"><a class="btn btn-primary" href="./">Go to Annotello</a></div></div></main></body></html>
+<div class="hero-actions"><a class="btn btn-primary" href="./">Go to Annotello</a></div>
+</div>
+<div id="guide" hidden>
+<h1>A shared Steps guide</h1>
+<p class="lead">Someone invited you to view and edit a how-to guide with them, live. It opens in Annotello for Mac.</p>
+<div class="hero-actions">
+  <a class="btn btn-primary" id="open">Open in Annotello</a>
+  <a class="btn" href="./#install">Get Annotello</a>
+</div>
+<p class="note">The guide is end-to-end encrypted. The key is the part of this link after “#”, which your browser never sends to any server.</p>
+</div>
+</div></main>
+<script>
+  // Live guide links: /g/<id>#<secret>. The fragment never leaves the browser; it is handed
+  // straight to the app. Opening in a browser is coming later.
+  const m = location.pathname.match(/\/g\/([A-Za-z0-9_-]{22})\/?$/);
+  const secret = location.hash.slice(1);
+  if (m && /^[A-Za-z0-9_-]{43}$/.test(secret)) {
+    document.title = 'Shared guide — Annotello';
+    document.getElementById('notfound').hidden = true;
+    document.getElementById('guide').hidden = false;
+    const app = `annotello://g/${m[1]}#${secret}`;
+    document.getElementById('open').href = app;
+    location.href = app;   // try right away; the button is there if the browser asks first
+  }
+</script>
+</body></html>

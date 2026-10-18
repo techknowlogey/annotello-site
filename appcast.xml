@@ -6,14 +6,14 @@
     <description>Annotello updates</description>
     <language>en</language>
     <item>
-      <title>Annotello 1.2.4</title>
-      <pubDate>Fri, 16 Oct 2026 15:21:06 GMT</pubDate>
-      <sparkle:version>202610161114</sparkle:version>
-      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+      <title>Annotello 1.3.0</title>
+      <pubDate>Sun, 18 Oct 2026 22:53:05 GMT</pubDate>
+      <sparkle:version>202610181851</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:fullReleaseNotesLink>https://annotello.com/#changelog</sparkle:fullReleaseNotesLink>
-      <description><![CDATA[<h3>What's new in 1.2.4</h3><ul><li>New About Annotello window: see your version and build, what Annotello can do, and when it last checked for updates.</li><li>Copy Info in the About window copies your version and macOS details, handy when asking for help.</li><li>Open About from the menu bar icon&#x27;s right-click menu, the capture panel&#x27;s ⋯ menu, or annotello://about.</li></ul>]]></description>
-      <enclosure url="https://annotello.com/downloads/Annotello-1.2.4.dmg" length="6130858" type="application/octet-stream" sparkle:edSignature="RYc5MIS45OLqpdkYF/SbeE7FQgMHekNTsm7RB8hfbr/75yWRnLjZZhORrgZJ3OVE6+zHAZI9TRQRHCIHAWgNDw=="/>
+      <description><![CDATA[<h3>What's new in 1.3.0</h3><ul><li>Share Live: edit a Steps guide with your team at the same time. Click Share Live in the Steps window and send the link.</li><li>Captions, step order, markers and screenshots sync instantly, and everyone&#x27;s presence shows in the window.</li><li>End-to-end encrypted: the key is part of the link and never reaches the server. Sensitive text is blurred before sharing.</li><li>Open a guide someone shared from the link, or with Open Shared Guide… in the menu bar menu.</li></ul>]]></description>
+      <enclosure url="https://annotello.com/downloads/Annotello-1.3.0.dmg" length="10276220" type="application/octet-stream" sparkle:edSignature="KcT6MM/T5TzcMRv5qftkl4BnjTILJeGwVppkB7/wypGw2r7yKmAMCSH5nB1YX3Y+O/Ozh8NtHiTfkRJphPFkBg=="/>
     </item>
   </channel>
 </rss>
