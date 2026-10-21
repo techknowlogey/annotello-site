@@ -38,7 +38,7 @@
 <main class="wrap">
   <article class="legal">
     <h1>Annotello Suite Privacy Policy</h1>
-    <p class="updated">Last updated October 20, 2026</p>
+    <p class="updated">Last updated October 21, 2026</p>
 
     <p>This policy covers the Annotello Suite apps for Mac: <strong>Annotello Mail</strong> (with Calendar and Contacts), <strong>Annotello Docs</strong>, <strong>Annotello Sheets</strong> and <strong>Annotello Slides</strong>. It explains what data the apps use, where it's kept, and who it's shared with.</p>
 
@@ -56,15 +56,20 @@
       <li><strong>See your Google Contacts</strong> (<code>contacts.readonly</code>): to show your contacts and suggest addresses as you type.</li>
       <li><strong>Your name, email address and profile picture</strong> (<code>openid</code>, <code>email</code>, <code>profile</code>): to show which account is signed in.</li>
     </ul>
+    <p>If you also turn on the <strong>Gemini</strong> assistant with Sign in with Google, the app asks for one more permission:</p>
+    <ul>
+      <li><strong>See and manage your Google Cloud projects</strong> (<code>cloud-platform</code>): used only to find the Google Cloud project that Google AI Studio made for your Gemini usage, or to create one named “Annotello Gemini” and turn on the Gemini API in it, and then to send your Gemini requests through that project. The app doesn't read or change anything else in your Google Cloud account.</li>
+    </ul>
     <p>This data goes directly between Google and the app on your Mac. It is stored only on your Mac, as described above, and is used only to provide these features to you.</p>
     <p>Annotello doesn't sell Google user data, doesn't use it for advertising, and doesn't use it to develop, improve or train artificial intelligence or machine learning models. No person at Annotello reads it.</p>
     <p>Annotello Suite's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
     <p>If you connect Gmail with an app password instead, the same data is read over Gmail's IMAP and SMTP servers, with the same handling.</p>
 
     <h2>Add-ins you choose to connect</h2>
-    <p>Add-ins for Claude, Zoom, Microsoft Teams and Slack are off until you sign in to them. Once connected, they receive content only when you use them, or when a mail rule you create tells them to:</p>
+    <p>Add-ins for Gemini, Claude, Zoom, Microsoft Teams and Slack are off until you sign in to them. Once connected, they receive content only when you use them, or when a mail rule you create tells them to:</p>
     <ul>
-      <li><strong>Claude</strong> (Anthropic): the text you ask it to work on, such as a thread to summarize or a draft to improve. It's sent under your own Anthropic account.</li>
+      <li><strong>Gemini</strong> (Google): the text you ask it to work on, such as a thread to summarize, a draft to improve or a spreadsheet range to explain. It's sent to Google's Gemini API under your own Google Cloud project or API key, so usage counts toward your own free tier or billing. On Gemini's free tier, Google may use prompts and responses to improve its products, as described in the <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>. That doesn't apply once billing is turned on for your project.</li>
+      <li><strong>Claude</strong> (Anthropic), if you choose it as your assistant instead: the text you ask it to work on, such as a thread to summarize or a draft to improve. It's sent under your own Anthropic account.</li>
       <li><strong>Zoom</strong> and <strong>Microsoft Teams</strong>: the title and time of a meeting when you add a meeting link.</li>
       <li><strong>Slack</strong>: the message or event you share to a channel.</li>
       <li><strong>Custom add-ins</strong> you install: what you send to them through the add-in's own actions, after you approve its permissions.</li>
