@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Annotello Suite — Mail, Calendar, Docs, Sheets & Slides for Mac</title>
+  <meta name="description" content="Annotello Suite brings Mail, Calendar, Contacts, Docs, Sheets and Slides to your Mac with a clean, familiar look and the depth of a full office suite: rules, scheduling, track changes, formulas and more. Works with your Gmail.">
+  <meta name="theme-color" content="#6b5cf6">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <meta property="og:title" content="Annotello Suite — Mail, Docs, Sheets & Slides for Mac">
+  <meta property="og:description" content="A familiar, clean office suite for Mac with real depth. Works with your Gmail.">
+  <meta property="og:image" content="https://annotello.com/assets/suite-mail.jpg">
+  <meta property="og:url" content="https://annotello.com/suite.html">
+  <link rel="canonical" href="https://annotello.com/suite.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 36px; }
+    .app-tile { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 22px; text-align: left; display: flex; flex-direction: column; gap: 10px; }
+    .app-tile img { width: 64px; height: 64px; }
+    .app-tile h3 { margin: 4px 0 0; font-size: 20px; }
+    .app-tile p { margin: 0; color: var(--muted); font-size: 15px; flex: 1; }
+    .app-tile .btn { justify-content: center; }
+    .app-tile .btn[aria-disabled="true"] { opacity: .55; pointer-events: none; }
+    .app-tile .small { font-size: 13px; color: var(--muted); }
+    .split { display: grid; grid-template-columns: 1fr 1.25fr; gap: 48px; align-items: center; }
+    .split.flip { grid-template-columns: 1.25fr 1fr; }
+    .split.flip > :first-child { order: 2; }
+    .split h2 { margin-top: 0; }
+    .split ul { color: var(--muted); padding-left: 20px; margin: 14px 0 0; line-height: 1.75; }
+    .pill { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); background: rgba(107,92,246,.1); border-radius: 999px; padding: 4px 10px; margin-bottom: 10px; }
+    @media (max-width: 900px) { .apps { grid-template-columns: repeat(2, 1fr); } .split, .split.flip { grid-template-columns: 1fr; } .split.flip > :first-child { order: 0; } }
+    @media (max-width: 520px) { .apps { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="">Annotello</a>
+    <nav class="nav-links">
+      <a href="index.html">Capture</a>
+      <a href="#apps">Suite</a>
+      <a href="#mail">Mail</a>
+      <a href="#docs">Docs &amp; Sheets</a>
+      <a href="#gmail">Gmail</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="#apps">Download</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">New · Annotello Suite</div>
+      <h1>Your office suite, <span class="gradient-text">without the clutter.</span></h1>
+      <p class="lead">Mail, Calendar, Contacts, Docs, Sheets and Slides for Mac. Clean and familiar on the surface, with the depth you'd expect from a full office suite underneath: mail rules, scheduling, track changes, real formulas and presenter view. It works with your Gmail.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#apps">Get the apps</a>
+        <a class="btn" href="#mail">See what's inside</a>
+      </div>
+      <div class="meta">Four Mac apps · <span class="suite-version">Version 0.6</span> · macOS 13 or later · Apple Silicon</div>
+      <img class="hero-shot" src="assets/suite-mail.jpg" alt="Annotello Mail showing a Focused inbox with categories, flags and folders" width="1800" height="1125">
+    </div>
+  </section>
+
+  <!-- The four apps -->
+  <section id="apps" class="section-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Four apps that work together</h2>
+        <p>Each app stands on its own and shares one Drive. Open a spreadsheet from your mail and it opens in Sheets, just like you'd expect.</p>
+      </div>
+      <div class="apps">
+        <div class="app-tile">
+          <img src="assets/suite-icon-mail.png" alt="">
+          <h3>Annotello Mail</h3>
+          <p>Mail, Calendar and Contacts in one app, with rules, Quick Steps, scheduling and shared mailboxes.</p>
+          <a class="btn btn-primary suite-dl" data-app="mail" href="#apps" aria-disabled="true">Coming soon</a>
+          <span class="small suite-size" data-app="mail"></span>
+        </div>
+        <div class="app-tile">
+          <img src="assets/suite-icon-docs.png" alt="">
+          <h3>Annotello Docs</h3>
+          <p>Paged documents with styles, tables, comments, suggesting mode and Word export.</p>
+          <a class="btn btn-primary suite-dl" data-app="docs" href="#apps" aria-disabled="true">Coming soon</a>
+          <span class="small suite-size" data-app="docs"></span>
+        </div>
+        <div class="app-tile">
+          <img src="assets/suite-icon-sheets.png" alt="">
+          <h3>Annotello Sheets</h3>
+          <p>Spreadsheets with about 70 functions, cross-sheet formulas, charts and Excel export.</p>
+          <a class="btn btn-primary suite-dl" data-app="sheets" href="#apps" aria-disabled="true">Coming soon</a>
+          <span class="small suite-size" data-app="sheets"></span>
+        </div>
+        <div class="app-tile">
+          <img src="assets/suite-icon-slides.png" alt="">
+          <h3>Annotello Slides</h3>
+          <p>Presentations with layouts, themes, speaker notes and a full-screen presenter view.</p>
+          <a class="btn btn-primary suite-dl" data-app="slides" href="#apps" aria-disabled="true">Coming soon</a>
+          <span class="small suite-size" data-app="slides"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mail -->
+  <section id="mail">
+    <div class="wrap split">
+      <div>
+        <span class="pill">Annotello Mail</span>
+        <h2>The power of a desktop mail client, the calm of a web inbox</h2>
+        <p class="lead" style="font-size:18px">Everything sorts itself out before you even look.</p>
+        <ul>
+          <li><b>Rules</b> with conditions, exceptions and a dozen actions, run on every new message</li>
+          <li><b>Quick Steps</b>, templates, signatures and automatic replies</li>
+          <li><b>Focused and Other</b> inboxes, snooze, follow-up flags and schedule send</li>
+          <li><b>Powerful search</b>: <code>from:</code>, <code>has:attachment</code>, <code>larger:2M</code>, saved search folders</li>
+          <li><b>Shared and delegated mailboxes</b> with send-as and send-on-behalf</li>
+        </ul>
+      </div>
+      <img class="shot" src="assets/suite-mail.jpg" alt="Annotello Mail inbox" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section-soft">
+    <div class="wrap split flip">
+      <div>
+        <span class="pill">Calendar &amp; Contacts</span>
+        <h2>Find a time everyone can make</h2>
+        <ul>
+          <li>Day, week and month views with recurring events</li>
+          <li>A scheduling assistant that shows everyone's free/busy time</li>
+          <li>Add Zoom, Microsoft Teams or Google Meet to any invite</li>
+          <li>Contacts and groups, with vCard and CSV import</li>
+        </ul>
+      </div>
+      <img class="shot" src="assets/suite-calendar.jpg" alt="Annotello Mail's calendar week view" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Docs & Sheets -->
+  <section id="docs">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Docs, Sheets and Slides with real depth</h2>
+        <p>Documents, spreadsheets and presentations that hold up when the work gets serious, and save straight to Drive.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><h4>Docs</h4><p>Styles, tables, table of contents, comments, suggesting mode with accept/reject, find &amp; replace, page setup. Exports to Word, Markdown and PDF.</p></div>
+        <div class="card"><h4>Sheets</h4><p>About 70 functions including XLOOKUP and SUMIFS, cross-sheet references, sort, freeze, charts, and formulas that update when you insert rows. Exports to Excel and CSV.</p></div>
+        <div class="card"><h4>Slides</h4><p>Layouts, themes, shapes and images with snapping, speaker notes and a presenter view with a timer. Exports to PDF.</p></div>
+      </div>
+      <div class="split" style="margin-top:48px">
+        <img class="shot" src="assets/suite-docs.jpg" alt="A document open in Annotello Docs" loading="lazy">
+        <img class="shot" src="assets/suite-sheets.jpg" alt="A spreadsheet open in Annotello Sheets" loading="lazy">
+      </div>
+      <img class="shot" src="assets/suite-slides.jpg" alt="A presentation open in Annotello Slides" loading="lazy" style="margin-top:28px;width:100%">
+    </div>
+  </section>
+
+  <!-- Gmail -->
+  <section id="gmail" class="section-soft">
+    <div class="wrap split">
+      <div>
+        <span class="pill">Works with Gmail</span>
+        <h2>Bring your own Gmail</h2>
+        <p style="color:var(--muted)">Click your profile picture and sign in. Your mail, labels and calendar come with you, and changes sync both ways: read, star, archive, labels, sending and replies.</p>
+        <ul>
+          <li><b>Sign in with Google</b>, or connect with a Google app password</li>
+          <li>Rules and Quick Steps run on your Gmail too</li>
+          <li>Search covers all of your Gmail, not just what's downloaded</li>
+          <li>Your mail stays on your Mac; sign-ins are encrypted with your Keychain</li>
+        </ul>
+      </div>
+      <img class="shot" src="assets/suite-gmail.jpg" alt="The Annotello account card with steps to connect Gmail" loading="lazy" style="max-width:420px;justify-self:center">
+    </div>
+  </section>
+
+  <!-- Add-ins -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Add-ins built right in</h2>
+        <p>Sign in once from Settings → Integrations. No passwords or secrets to paste.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><h4>Claude</h4><p>Help writing email, thread summaries, rewrite in Docs, explain a range in Sheets, and generate slides from a topic.</p></div>
+        <div class="card"><h4>Zoom &amp; Microsoft Teams</h4><p>Add a meeting link to any event or email in one click, created in your own account.</p></div>
+        <div class="card"><h4>Slack</h4><p>Share an email or event to a channel as you, or let a rule post for you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section-soft">
+    <div class="wrap">
+      <div class="section-head"><h2>Questions</h2></div>
+      <div class="grid">
+        <div class="card"><h4>Where is my data stored?</h4><p>On your Mac, in your user Library. The apps talk directly to Google, Zoom, Microsoft and Slack. There's no Annotello server in between.</p></div>
+        <div class="card"><h4>How are sign-ins protected?</h4><p>Sign-in tokens and app passwords are encrypted with AES-256, using a key kept in your macOS Keychain. Disconnecting removes them.</p></div>
+        <div class="card"><h4>Do I need all four apps?</h4><p>No. Install only the ones you want. They share Drive and hand files to each other when more than one is installed.</p></div>
+        <div class="card"><h4>How does this relate to Annotello Capture?</h4><p>They're siblings in the Annotello family. <a href="index.html">Annotello Capture</a> is the screen capture and annotation app; the Suite apps install separately and don't change it.</p></div>
+        <div class="card"><h4>Which Macs are supported?</h4><p>Apple Silicon Macs running macOS 13 or later. The apps are signed and notarized by Apple.</p></div>
+        <div class="card"><h4>What doesn't work yet?</h4><p>Sending file attachments through Gmail (share a Drive link instead), and Intel Macs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Try the <span class="gradient-text">Annotello Suite</span></h2>
+      <p class="lead">Start with Annotello Mail and connect your Gmail in a minute.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#apps">Get the apps</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year">2026</span> Annotello. Made on a Mac.</div>
+    <nav>
+      <a href="index.html">Annotello Capture</a>
+      <a href="#faq">Privacy</a>
+      <a href="suite.json">suite.json</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // Download links, sizes and version come from suite.json (written when a suite release is published),
+  // so the page shows "Coming soon" until files are actually available.
+  document.getElementById('year').textContent = new Date().getFullYear();
+  fetch('suite.json', { cache: 'no-store' })
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(info => {
+      document.querySelectorAll('.suite-version').forEach(el => el.textContent = 'Version ' + info.version);
+      for (const a of document.querySelectorAll('.suite-dl')) {
+        const app = info.apps && info.apps[a.dataset.app];
+        if (!app || !app.url) continue;
+        a.href = app.url;
+        a.textContent = 'Download';
+        a.removeAttribute('aria-disabled');
+        const size = document.querySelector(`.suite-size[data-app="${a.dataset.app}"]`);
+        if (size) size.textContent = `${app.size} · DMG`;
+      }
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>

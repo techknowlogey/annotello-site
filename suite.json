@@ -1,0 +1,31 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-21T00:50:43.524Z",
+  "minimumSystemVersion": "13.0",
+  "apps": {
+    "mail": {
+      "name": "Annotello Mail",
+      "url": "https://github.com/techknowlogey/annotello-site/releases/download/suite-v0.6.0/Annotello-Mail-0.6.0-arm64.dmg",
+      "size": "123.3 MB",
+      "sha256": "76be0973cf3eaee4d378f3c7f7f05bf5fbdd7764cc905efe05d889bf200c563b"
+    },
+    "docs": {
+      "name": "Annotello Docs",
+      "url": "https://github.com/techknowlogey/annotello-site/releases/download/suite-v0.6.0/Annotello-Docs-0.6.0-arm64.dmg",
+      "size": "123.2 MB",
+      "sha256": "03d6ebd2bd325e53f40cc2a64eb7ae2a62dec2efbda89f4943f14d7052c19331"
+    },
+    "sheets": {
+      "name": "Annotello Sheets",
+      "url": "https://github.com/techknowlogey/annotello-site/releases/download/suite-v0.6.0/Annotello-Sheets-0.6.0-arm64.dmg",
+      "size": "123.2 MB",
+      "sha256": "c87f16f1d8082710ab5dac157c026b6a762165ce89d8ab0242925a4ad20512b4"
+    },
+    "slides": {
+      "name": "Annotello Slides",
+      "url": "https://github.com/techknowlogey/annotello-site/releases/download/suite-v0.6.0/Annotello-Slides-0.6.0-arm64.dmg",
+      "size": "123.1 MB",
+      "sha256": "794ed5c96c4bf7988ee2569c8d1c3c03814fc5dec059d955dc3455f8b75e93f5"
+    }
+  }
+}
